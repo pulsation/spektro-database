@@ -1,0 +1,8 @@
+{
+  "name": "spektro-database",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-couch": "~1.2.3"
+  }
+}
