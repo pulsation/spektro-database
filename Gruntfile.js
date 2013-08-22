@@ -6,14 +6,14 @@ module.exports = function(grunt) {
     'couch-compile': {
       template: {
         files: {
-          'tmp/spektor-template.json': 'couch/*'
+          'tmp/spektro-template.json': 'couch/*'
         }
       }
     },
     'couch-push': {
       pulsation: {
         files: {
-          'https://pulsation.iriscouch.com:6984/spektor-template': 'tmp/spektor-template.json'
+          'https://pulsation.iriscouch.com:6984/spektro-template': 'tmp/spektro-template.json'
         }
       }
     }
