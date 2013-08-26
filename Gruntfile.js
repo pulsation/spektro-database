@@ -4,9 +4,9 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     'couch-compile': {
-      template: {
+      "spektro-template": {
         files: {
-          'tmp/spektro-template.json': 'couch/*'
+          'tmp/spektro-template.json': 'couch/spektro-template'
         }
       }
     },
