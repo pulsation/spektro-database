@@ -9,11 +9,6 @@ module.exports = function(grunt) {
           'tmp/spektro-template.json': 'couch/spektro-template'
         }
       },
-      "spektro-replicator": {
-        files: {
-          'tmp/spektro-replicator.json': 'couch/spektro-replicator'
-        }
-      }
     },
     'couch-push': {
       pulsation: {
