@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     'couch-compile': {
       "spektro-template": {
         files: {
-          'tmp/spektro-template.json': 'couch/spektro-template'
+          'tmp/spektro-template.json': 'couch/*'
         }
       },
     },
